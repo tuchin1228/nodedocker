@@ -14,7 +14,7 @@ variables:
   imageRepository: 'nodedocker0118'
   containerRegistry: 'dockerreact0113.azurecr.io'
   dockerfilePath: '$(Build.SourcesDirectory)/Dockerfile'
-  tag: '$(Build.BuildId)'
+  tag: 'latest'
 
   # Agent VM image name
   vmImageName: 'ubuntu-latest'
